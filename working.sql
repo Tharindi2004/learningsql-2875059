@@ -1,1 +1,4 @@
-SELECT 3>2, 5>7,3=3, 5!=2;
+SELECT first_name, quiz_points
+FROM people
+WHERE quiz_points >=70
+ORDER BY quiz_points;
