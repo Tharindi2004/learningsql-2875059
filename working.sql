@@ -1,5 +1,4 @@
-SELECT state_name, MAX(quiz_points) AS maxpoints, AVG(quiz_points) AS avgpts
-FROM people
-JOIN states ON states.state_abbrev = people. state_code
-GROUP BY state_code
-ORDER BY avgpts DESC;
+INSERT INTO people
+(first_name, last_name, state_code,city, shirt_or_hat)
+VALUES
+('Mary','Hamilton','OR','Portland','hat');
