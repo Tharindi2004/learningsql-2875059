@@ -1,3 +1,3 @@
-SELECT * FROM people WHERE company='Megacorp Inc';
+SELECT * FROM people;
 
-UPDATE people SET company= 'Megacorp Inc'WHERE company= 'Fisher LLC';
+DELETE FROM people WHERE id_number= 1001;
