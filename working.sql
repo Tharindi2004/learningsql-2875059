@@ -1,4 +1,6 @@
 INSERT INTO people
-(first_name, last_name, state_code,city, shirt_or_hat)
+(first_name,last_name)
 VALUES
-('Mary','Hamilton','OR','Portland','hat');
+('George','Washington'),
+('John','Adams'),
+('Thomas','Jefferson');
