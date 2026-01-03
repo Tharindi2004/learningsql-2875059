@@ -1,3 +1,5 @@
-SELECT first_name AS firstname, last_name AS surname
+SELECT state_name, MAX(quiz_points) AS maxpoints, AVG(quiz_points) AS avgpts
 FROM people
-WHERE firstname = 'Laura';
+JOIN states ON states.state_abbrev = people. state_code
+GROUP BY state_code
+ORDER BY avgpts DESC;
