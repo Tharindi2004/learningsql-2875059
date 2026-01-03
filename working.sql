@@ -1,3 +1,3 @@
-SELECT quiz_points
+SELECT first_name AS firstname, last_name AS surname
 FROM people
-ORDER BY CAST (quiz_points AS CHAR);
+WHERE firstname = 'Laura';
