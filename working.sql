@@ -1,4 +1,3 @@
-SELECT state_code,first_name, last_name 
-FROM people
-ORDER BY state_code, last_name DESC;
+SELECT first_name, LENGTH(first_name) 
+FROM people;
 
