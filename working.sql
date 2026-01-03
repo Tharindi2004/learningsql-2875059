@@ -1,1 +1,1 @@
-SELECT company, first_name, quiz_points FROM people;
+SELECT * FROM people WHERE state_code= 'CA';
