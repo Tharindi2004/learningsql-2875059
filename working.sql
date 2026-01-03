@@ -1,3 +1,4 @@
-SELECT first_name, last_name FROM people
-WHERE first_name LIKE 'B%N'
-LIMIT 5 OFFSET 5;
+SELECT state_code,first_name, last_name 
+FROM people
+ORDER BY state_code, last_name DESC;
+
