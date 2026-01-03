@@ -1,3 +1,3 @@
-SELECT team, COUNT(*), SUM(quiz_points),SUM(quiz_points)/COUNT(*)
+SELECT team, COUNT(*), SUM(quiz_points), AVG(quiz_points)
 FROM people
 GROUP BY team;
