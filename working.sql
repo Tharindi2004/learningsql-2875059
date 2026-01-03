@@ -1,3 +1,3 @@
 SELECT first_name, last_name
 FROM people
-WHERE shirt_or_hat= 'shirt';
+WHERE state_code='CA' AND shirt_or_hat='shirt' AND team='Angry Ants';
