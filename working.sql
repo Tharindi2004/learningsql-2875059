@@ -1,3 +1,7 @@
 SELECT * FROM people;
 
-DELETE FROM people WHERE id_number= 1001;
+SELECT * FROM people WHERE quiz_points IS NULL;
+
+
+
+DELETE FROM people WHERE quiz_points IS NULL;
