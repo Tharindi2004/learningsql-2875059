@@ -1,1 +1,1 @@
-SELECT first_name FROM people;
+SELECT last_name, first_name FROM people;
