@@ -1,3 +1,3 @@
-SELECT first_name, LENGTH(first_name) 
+SELECT DISTINCT(first_name) 
 FROM people;
 
