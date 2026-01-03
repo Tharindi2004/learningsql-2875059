@@ -1,1 +1,1 @@
-SELECT 'Hello, World';
+SELECT first_name FROM people;
