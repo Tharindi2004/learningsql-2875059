@@ -1,5 +1,5 @@
-SELECT COUNT(first_name) 
+SELECT first_name, state_code
 FROM people
-WHERE state_code= 'CA';
+JOIN states ON people.state_code = state_abbrev;
 
 
