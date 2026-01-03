@@ -1,3 +1,3 @@
-UPDATE people
-SET last_name = ''
-WHERE first_name = 'Calos' AND city = 'Houston';
+SELECT * FROM people WHERE company='Megacorp Inc';
+
+UPDATE people SET company= 'Megacorp Inc'WHERE company= 'Fisher LLC';
