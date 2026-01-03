@@ -1,4 +1,4 @@
-SELECT first_name, state_code
+SELECT people.first_name, people.state_code, states. division
 FROM people
 JOIN states ON people.state_code = state_abbrev;
 
